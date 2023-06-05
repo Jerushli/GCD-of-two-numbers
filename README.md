@@ -21,9 +21,27 @@ Developed by:
 RegisterNumber:  
 */
 ```
+```
+
+def gcd():
+    a=int(input())
+    b=int(input())
+    if(a>b):
+        min=b
+    else:
+        min=a
+    for i in range(1,min):
+        if(a%i==0 and b%i==0):
+            g=i
+    print("GCD of two numbers is:",g)
+```
 
 ## Output:
-![gcd of two number](gcd.png)
+
+
+
+![image](https://github.com/Jerushli/GCD-of-two-numbers/assets/120041243/2aacab0a-54ce-458c-a3be-f14dd0c3773f)
+
 
 
 ## Result:
